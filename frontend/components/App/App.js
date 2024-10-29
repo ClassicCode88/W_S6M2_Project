@@ -17,7 +17,7 @@ const App = () => {
   // Create a state called `posts` to hold the array of post objects, **initializing to dummyData**.
   // This state is the source of truth for the data inside the app. You won't be needing dummyData anymore.
   // To make the search bar work (which is stretch) we'd need another state to hold the search term.
-  const [post, setPosts] = useState(data)
+  const [posts, setPosts] = useState(data)
   const likePost = postId => {
     /*
       This function serves the purpose of increasing the number of likes by one, of the post with a given id.
